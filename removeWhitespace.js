@@ -8,8 +8,6 @@
 
 const api = async () => {
   let cat = await fetch("https://cdn2.thecatapi.com/images/MTg5NTY1Nw.gif");
-
   console.log(cat.url);
 };
-
 console.log(api());
